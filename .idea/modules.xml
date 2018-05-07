@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FrameWorkDemo.iml" filepath="$PROJECT_DIR$/FrameWorkDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDataBindingDemo/MyDataBindingDemo.iml" filepath="$PROJECT_DIR$/MyDataBindingDemo/MyDataBindingDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvcdemo/mvcdemo.iml" filepath="$PROJECT_DIR$/mvcdemo/mvcdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvvmdemo/mvvmdemo.iml" filepath="$PROJECT_DIR$/mvvmdemo/mvvmdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeventbusdemo/myeventbusdemo.iml" filepath="$PROJECT_DIR$/myeventbusdemo/myeventbusdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit+rxjavademo/retrofit+rxjavademo.iml" filepath="$PROJECT_DIR$/retrofit+rxjavademo/retrofit+rxjavademo.iml" />
+    </modules>
+  </component>
+</project>

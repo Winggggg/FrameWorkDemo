@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="mitem"
+            type="com.gosuncn.mydatabindingdemo.model.RecyclerItem"/>
+
+        <variable
+            name="mpresenter"
+            type="com.gosuncn.mydatabindingdemo.handler.Presenter"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@{mitem.type}"
+            android:onClick="@{() -> mpresenter.onTypeClick(context, mitem)}"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</layout>

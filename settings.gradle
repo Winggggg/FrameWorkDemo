@@ -1,0 +1,1 @@
+include ':app', ':myeventbusdemo', ':mvpdemo', ':MyDataBindingDemo', ':mvvmdemo', ':retrofit+rxjavademo', ':mvcdemo'

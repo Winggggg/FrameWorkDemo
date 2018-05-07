@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data >
+
+    </data>
+
+   <LinearLayout
+       android:gravity="center_horizontal"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <Button
+           android:onClick="getBookData"
+           android:text="Retrofit+RxJava配合网络请求书籍数据"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_marginTop="10dp"
+           android:id="@+id/recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       </android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+
+</layout>

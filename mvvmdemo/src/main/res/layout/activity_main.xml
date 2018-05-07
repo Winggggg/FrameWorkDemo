@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="book"
+            type="com.gosuncn.mvvmdemo.viewmodel.Book"/>
+        <variable
+            name="viewModel"
+            type="com.gosuncn.mvvmdemo.viewmodel.ViewModel"/>
+        <import type="android.view.View"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_centerHorizontal="true"
+            android:onClick="getBookClick"
+            android:text="网络请求书籍数据"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <ProgressBar
+            android:visibility="@{viewModel.isStartRequest? View.VISIBLE : View.GONE}"
+            android:id="@+id/pb_loding"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_below="@id/btn_test"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_bookName"
+                android:text="@{@string/bookName+book.bookName}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tv_bookAuthor"
+                android:text="@{@string/bookAuthor+book.author}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tv_bookDetail"
+                android:text="@{@string/bookDetail+book.detail}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</layout>

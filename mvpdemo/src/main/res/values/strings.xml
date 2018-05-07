@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVPDemo</string>
+
+    <string name="bookName">书名：</string>
+    <string name="bookAuthor">作者：</string>
+    <string name="bookDetail">书籍介绍：</string>
+</resources>

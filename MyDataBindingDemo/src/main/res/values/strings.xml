@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyDataBindingDemo</string>
+
+    <string name="firstname">FirstName: %1$s</string>
+    <string name="lastname">LastName: %1$s</string>
+    <string name="fullname">FullName: %1$s</string>
+    <string name="string_from_context">文本从资源文件中获取</string>
+
+    <string name="zhuanti">白舟篆古印</string>
+</resources>
